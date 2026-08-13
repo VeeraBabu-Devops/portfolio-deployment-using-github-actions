@@ -1,16 +1,55 @@
-# React + Vite
+# Paidikondala Veera Babu — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Personal portfolio website showcasing my experience, skills, projects, and DevOps/Cloud expertise.
 
-Currently, two official plugins are available:
+## 👨‍💻 About Me
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+I'm Veera Babu, a Software Engineer focused on Cloud, DevOps, Infrastructure Automation, and modern deployment practices.
 
-## React Compiler
+## 🚀 Skills
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- AWS
+- Terraform
+- Docker
+- Kubernetes
+- Jenkins
+- Git & GitHub
+- GitHub Actions
+- Linux
+- Python
+- SQL
+- Maven
+- SonarQube
+- Nexus
 
-## Expanding the Oxlint configuration
+## ☁️ Featured Projects
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### AWS E-Commerce Platform
+
+A cloud-based e-commerce platform designed using scalable AWS services, secure authentication, API integration, containerized workloads, and managed databases.
+
+**Technologies:** AWS, S3, CloudFront, Cognito, API Gateway, ECS, Fargate, DynamoDB, RDS, SNS, SQS
+
+### LMS Deployment on AWS
+
+A three-tier LMS application deployed on AWS using separate application layers and Linux-based deployment.
+
+**Technologies:** AWS EC2, Docker, React, Node.js, PostgreSQL, Linux
+
+### Jenkins CI/CD Automation
+
+An automated CI/CD pipeline covering application build, testing, code analysis, artifact management, and deployment.
+
+**Technologies:** Jenkins, Git, GitHub, Maven, SonarQube, Nexus, Tomcat
+
+## 📄 Resume
+
+The latest resume is available through the portfolio website.
+
+## 🔗 Portfolio
+
+This repository contains the source code for my personal portfolio website.
+
+---
+
+© 2026 Paidikondala Veera Babu
