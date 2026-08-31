@@ -1,8 +1,12 @@
 # Paidikondala Veera Babu — Portfolio
 
-> Personal portfolio showcasing my experience, skills, projects, and practical work in Cloud, DevOps, and Infrastructure Automation.
+> Personal portfolio showcasing my experience, technical skills, projects, and practical work in Cloud, DevOps, and Infrastructure Automation.
 
-🌐 **Live Portfolio:** https://veerababu-portfolio-gamma.vercel.app/
+🌐 **Live Portfolio:**  
+https://veerababu-devops.github.io/portfolio-deployment-using-github-actions/
+
+💻 **GitHub:**  
+https://github.com/VeeraBabu-Devops
 
 ---
 
@@ -10,9 +14,9 @@
 
 I am a Software Engineer with a strong interest in Cloud Computing, DevOps, Infrastructure Automation, and modern application deployment.
 
-I enjoy building practical projects using AWS, Docker, Kubernetes, Terraform, Jenkins, GitHub Actions, and Linux.
+I enjoy building practical solutions using AWS, Docker, Kubernetes, Terraform, Jenkins, GitHub Actions, Linux, and Python.
 
-This portfolio highlights my technical skills, professional experience, and hands-on projects.
+This portfolio highlights my technical skills, professional experience, certifications, and hands-on projects.
 
 ---
 
@@ -21,6 +25,7 @@ This portfolio highlights my technical skills, professional experience, and hand
 ### Programming
 - Python
 - SQL
+- JavaScript
 
 ### Cloud & Infrastructure
 - AWS
@@ -30,7 +35,11 @@ This portfolio highlights my technical skills, professional experience, and hand
 - IAM
 - CloudFront
 - Route 53
-- Load Balancing
+- Elastic Load Balancing
+- ECS
+- Fargate
+- DynamoDB
+- RDS
 
 ### DevOps & CI/CD
 - Git
@@ -50,17 +59,24 @@ This portfolio highlights my technical skills, professional experience, and hand
 ### Operating Systems
 - Linux
 - Ubuntu
-- Shell Commands
+- Shell Scripting
+
+### Frontend & Web
+- React.js
+- Vite
+- Tailwind CSS
+- HTML5
+- CSS3
 
 ---
 
-## 🚀 Featured Projects
+# 🚀 Featured Projects
 
-### 1. AWS E-Commerce Platform
+## 1. Cloud-Native-Microservices
 
-A cloud-based e-commerce platform designed using scalable AWS services with secure authentication, API integration, containerized workloads, and managed databases.
+A cloud-based e-commerce platform designed using scalable AWS services with secure authentication, API integration, containerized workloads, messaging, and managed databases.
 
-**Technologies:**
+### Technologies
 
 `AWS` `S3` `CloudFront` `Cognito` `API Gateway` `ECS` `Fargate` `DynamoDB` `RDS` `SNS` `SQS`
 
@@ -69,11 +85,11 @@ https://github.com/VeeraBabu-Devops/aws-ecommerce-platform
 
 ---
 
-### 2. LMS Deployment on AWS
+## 2. Three-Tier-Web-Application-Deployment
 
 A three-tier Learning Management System deployed on AWS using separate application layers and containerized deployment.
 
-**Technologies:**
+### Technologies
 
 `AWS` `EC2` `Docker` `React` `Node.js` `PostgreSQL` `Linux`
 
@@ -82,11 +98,11 @@ https://github.com/VeeraBabu-Devops/LMS-Deployment-AWS
 
 ---
 
-### 3. Jenkins CI/CD Automation
+## 3. Jenkins CI/CD Automation
 
-An automated CI/CD pipeline for application build, testing, code analysis, artifact management, and deployment.
+An automated CI/CD pipeline for application build, testing, code analysis, artifact management, and application deployment.
 
-**Technologies:**
+### Technologies
 
 `Jenkins` `Git` `GitHub` `Maven` `SonarQube` `Nexus` `Tomcat`
 
@@ -95,61 +111,31 @@ https://github.com/VeeraBabu-Devops/Jenkins-CICD-Pipeline
 
 ---
 
-## ✨ Portfolio Features
+# 🌐 Portfolio Deployment
 
-- Responsive design for desktop, tablet, and mobile
-- Professional dark-themed UI
-- About Me section
-- Professional Experience
-- Technical Skills
-- Featured Projects
-- GitHub project links
-- Resume download
-- Contact section
-- Mobile navigation menu
-- Responsive project and skill cards
+This project also demonstrates the deployment of a React/Vite application using **GitHub Actions and GitHub Pages**.
 
----
-
-## ⚙️ Built With
-
-- React.js
-- Vite
-- Tailwind CSS
-- JavaScript
-- HTML5
-- CSS3
-
----
-
-## 📁 Project Structure
+### Deployment Flow
 
 ```text
-veerababu-portfolio/
-│
-├── public/
-│   ├── profile.png
-│   ├── resume.pdf
-│   └── ...
-│
-├── src/
-│   ├── components/
-│   │   ├── About.jsx
-│   │   ├── Certifications.jsx
-│   │   ├── Contact.jsx
-│   │   ├── Experience.jsx
-│   │   ├── Footer.jsx
-│   │   ├── Hero.jsx
-│   │   ├── Navbar.jsx
-│   │   ├── Projects.jsx
-│   │   └── Skills.jsx
-│   │
-│   ├── App.jsx
-│   ├── index.css
-│   └── main.jsx
-│
-├── .gitignore
-├── package.json
-├── package-lock.json
-├── README.md
-└── vite.config.js
+Developer
+    │
+    ▼
+GitHub Repository
+    │
+    │ Push to main
+    ▼
+GitHub Actions
+    │
+    ├── Checkout Source
+    ├── Setup Node.js
+    ├── Install Dependencies
+    ├── Build React/Vite Application
+    ├── Upload Build Artifact
+    └── Deploy to GitHub Pages
+    │
+    ▼
+GitHub Pages
+    │
+    ▼
+Live Portfolio
