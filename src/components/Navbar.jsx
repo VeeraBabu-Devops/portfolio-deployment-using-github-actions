@@ -85,7 +85,7 @@ const Navbar = () => {
 
               {/* Mobile Resume */}
               <a
-                href="/resume.pdf"
+                href={`${base}resume.pdf`}
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setIsOpen(false)}
