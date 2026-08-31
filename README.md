@@ -234,26 +234,4 @@ This project serves two purposes:
 ```
 
 
-### One important improvement
-
-I particularly recommend keeping this section:
-
-> **Portfolio Deployment**
-
-because when a recruiter opens this repository, they can immediately see:
-
-**React → GitHub → GitHub Actions → Build → Artifact → GitHub Pages**
-
-That's much more valuable for your **Cloud/DevOps profile** than simply having a README saying "this is my portfolio."
-
-Also, your **live portfolio URL should now be the GitHub Pages URL**, not the Vercel URL, in this particular repository.
-
-After replacing the README:
-
-```bash
-git add README.md
-git commit -m "Improve portfolio README"
-git push origin main
-
-```
  
