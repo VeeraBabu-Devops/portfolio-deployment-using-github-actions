@@ -139,3 +139,121 @@ GitHub Pages
     │
     ▼
 Live Portfolio
+```
+
+## 📁 Project Structure
+
+```text
+portfolio-deployment-using-github-actions/
+│
+├── .github/
+│   └── workflows/
+│       └── deploy.yml
+│
+├── public/
+│   ├── profile.png
+│   ├── resume.pdf
+│   └── ...
+│
+├── src/
+│   ├── components/
+│   │   ├── About.jsx
+│   │   ├── Certifications.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Experience.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── Projects.jsx
+│   │   └── Skills.jsx
+│   │
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+└── vite.config.js
+```
+
+## 🚀 Run Locally
+Clone the repository:
+```text
+git clone https://github.com/VeeraBabu-Devops/portfolio-deployment-using-github-actions.git
+```
+Navigate to the project:
+```text
+cd portfolio-deployment-using-github-actions
+```
+Install dependencies:
+```text
+npm install
+```
+Start the development server:
+```text
+npm run dev
+```
+Build for production:
+```text
+npm run build
+```
+
+## 🔄 Deployment
+Deployment is automated using GitHub Actions.
+Every push to the ``` main ``` branch triggers the deployment workflow.
+```text
+git add .
+git commit -m "Update portfolio"
+git push origin main
+```
+GitHub Actions automatically builds and deploys the latest version to GitHub Pages.
+
+## 📌 Project Purpose
+This project serves two purposes:
+ 
+**1. Personal Portfolio** — Showcase my professional experience, skills, projects, and resume.
+
+**2. DevOps Learning Project** — Demonstrate practical CI/CD and static website deployment using GitHub Actions and GitHub Pages.
+
+---
+
+## 📫 Contact
+ **GitHub**: https://github.com/VeeraBabu-Devops
+ 
+ **LinkedIn**: https://www.linkedin.com/in/veera-babu-devops/
+ 
+ **Email**: pveerababudevops@gmail.com
+ 
+---
+
+⭐ If you find this project useful, feel free to explore the repository and my other projects.
+
+```
+
+
+### One important improvement
+
+I particularly recommend keeping this section:
+
+> **Portfolio Deployment**
+
+because when a recruiter opens this repository, they can immediately see:
+
+**React → GitHub → GitHub Actions → Build → Artifact → GitHub Pages**
+
+That's much more valuable for your **Cloud/DevOps profile** than simply having a README saying "this is my portfolio."
+
+Also, your **live portfolio URL should now be the GitHub Pages URL**, not the Vercel URL, in this particular repository.
+
+After replacing the README:
+
+```bash
+git add README.md
+git commit -m "Improve portfolio README"
+git push origin main
+
+```
+ 
