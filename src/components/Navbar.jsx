@@ -47,7 +47,7 @@ const Navbar = () => {
 
             {/* Resume */}
             <a
-              href={`${base}resume.pdf`}
+              href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 rounded-lg bg-cyan-400 text-slate-950 font-semibold hover:bg-cyan-300 transition"
@@ -85,7 +85,7 @@ const Navbar = () => {
 
               {/* Mobile Resume */}
               <a
-                href={`${base}resume.pdf`}
+                href="/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setIsOpen(false)}
