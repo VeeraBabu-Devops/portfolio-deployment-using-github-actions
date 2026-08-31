@@ -1,3 +1,4 @@
+const base = import.meta.env.BASE_URL
 const Hero = () => {
   return (
     <section
@@ -46,7 +47,7 @@ const Hero = () => {
               </a>
 
               <a
-                href="/resume.pdf"
+                href={`${base}resume.pdf`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-5 py-2.5 rounded-lg border border-cyan-400 text-white font-semibold hover:bg-cyan-400 hover:text-slate-950 transition"
@@ -65,7 +66,7 @@ const Hero = () => {
               <div className="absolute inset-0 rounded-full bg-cyan-400/10 blur-2xl"></div>
 
               <img
-                src="/profile.png"
+                src={`${base}profile.png`}
                 alt="Veera Babu"
                 className="
                   relative
