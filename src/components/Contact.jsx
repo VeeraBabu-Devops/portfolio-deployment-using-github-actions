@@ -116,7 +116,7 @@ const Contact = () => {
 
             {/* Resume */}
             <a
-              href="/resume.pdf"
+              href={`${import.meta.env.BASE_URL}resume.pdf`}
               target="_blank"
               rel="noopener noreferrer"
               className="block bg-cyan-400 text-slate-950 rounded-xl p-5 font-semibold text-center hover:bg-cyan-300 transition"
